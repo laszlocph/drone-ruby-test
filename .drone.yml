@@ -1,6 +1,8 @@
 pipeline:
   bundle:
-    image: ruby:2.4.1-alpine
+    image: ruby:2.4.1-stretch
     commands:
+      - apt-get update
+      - apt-get install -qqy --no-install-recommends curl libpq-dev libsqlite3-dev build-essential
       - bundle install
 
