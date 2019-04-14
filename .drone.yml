@@ -1,0 +1,5 @@
+pipeline:
+  bundle:
+    image: ruby:2.4.1-alpine
+    commands:
+      - bundle install
