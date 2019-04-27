@@ -6,4 +6,3 @@ pipeline:
       - apt-get install -qqy --no-install-recommends curl libpq-dev libsqlite3-dev build-essential
       - bundle install
 
-
